@@ -1,0 +1,93 @@
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Hahmlet', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Sora', sans-serif;
+ */
+ /* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    all: unset;
+}
+.img1{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    margin-left: 20px;
+    padding: 5px;
+}
+.AW-head{
+    margin: 8px 0;
+    font-size: 1.1rem;
+    font-family: 'Sora', sans-serif;
+}
+.navbar-nav{
+    font-size: 1.2rem;
+    font-family: 'Sora', sans-serif;
+    margin-left: 25px;
+}
+.navbar{
+    padding: 0px 0px 5px 0px;
+
+}
+#navbarNav{
+    align-items: center;
+    justify-content: end;
+}
+.nav-item{
+    padding: 0px 15px;
+}
+
+/* home */
+#home{
+    color: black;
+}
+.price-head{
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.pricing-t{
+    font-family: 'Sora', sans-serif;
+}
+/* pricing */
+.card{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.fa-duotone{
+    color: white;
+}
+.card-title{
+    font-family: 'Hahmlet', serif;
+    font-weight: 900;
+}
+.card-text{
+    font-family: 'Outfit', sans-serif;
+}
+.buy-link{
+    font-family: 'Outfit', sans-serif;
+}
